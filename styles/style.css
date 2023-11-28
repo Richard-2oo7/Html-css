@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:Bree Serif;
+}
+
+header{
+  background-color: white;
+  height: 100px;
+  padding: 0 10%;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
+}
+
+.navbar ul{
+  margin-right: auto;
+
+}
+.navbar ul li{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.navbar .link{
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.navbar .link:hover{
+  text-decoration:underline;
+}
+
+
+.navbar .icon{
+  position: absolute;
+  top: 5px;
+  right: -25px;
+}
+
+.inlogbtn{
+  padding: 5px 10px;
+}
+
+body{
+  background-color: lightgray;
+  padding-top: 100px;
+}
+
+main{
+  padding: 0 20%;
+}
+.title{
+  text-align: center;
+  font-size: 15vw;
+}
+.content{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 1000px) {
+  .content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.tree{
+  height: 400px;
+}
+footer{
+  background-color: white;
+  height: 200px;
+}
+footer h3{
+  text-align: center;
+}
+
+footer .links{
+  width: 100vw;
+  line-height:100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.link{
+  font-size: 20px;
+  position: relative;
+  color: black;
+}
+
+footer .link{
+  line-height: 100px;
+}
+
+footer .icon{
+  position: relative;
+  bottom: -5px;
+  right: -5px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/inloggen.css">
+  <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+  <link rel="icon" type="image/x-icon" href="icons/Logo.svg">
+  <title>Have fun</title>
+</head>
+<body>
+<header>
+<nav class="navbar">
+  <ul>
+    <li><a class = "link" href="index.html">Home<img class = "icon" src="icons/home.svg" alt="Homeicon"></a></li>
+    <li><a class = "link" href="Vermaak.html">Vermaak<img class = "icon" src="icons/fun.svg" alt="Homeicon"></a></a></li>
+    <li><a class = "link" href="Fotogalerij.html">Fotogalerij<img class = "icon"src="icons/galery.svg" alt="galeryicon"></a></li>
+  </ul>
+  <button onclick="window.location.href='inloggen.html'" class="inlogbtn">Inloggen</button>
+</nav>
+</header>
+<main>
+
+
+
+  <form class = "forminloggen" method="get" action='http://127.0.0.1:5500/inloggen.html'>
+    <div class="inputs">
+    <div class="box">
+        <label for = "name">Naam:</label>
+        <input id = "name"type="text" required>
+      </div>
+      <div class="box">
+        <label for = "email">E-mail:</label>
+        <input id = "email"type="email" required>
+      </div>
+      <div class="box">
+        <label for = "wachtwoord">Wachtwoord:</label>
+        <input id = "wachtwoord"type="password" required>
+      </div>
+    </div>
+    <button class = "login"type="submit">inloggen</button>
+  </form>
+</main>
+
+<footer>
+  <h3>berijkbaar</h3>
+  <hr>
+  <div class="links">
+    <div class="link">
+  <a class= "link" href="#">Youtube<img class = "icon"src="icons/youtube.svg" alt="youtubeicon"></a>
+</div>
+<div class="link">
+  <a class= "link" href="#">Facebook<img class = "icon" src="icons/facebook.svg" alt="facebookicon"></a>
+  </div>
+  <div class="link">
+  <a class= "link" href="#">Instagram<img class = "icon" src="icons/instagram.svg" alt="instagramicon"></a>
+  </div>
+  <div class="link">
+  <a class= "link" href="#">x<img class = "icon" src="icons/x.svg" alt="xicon"></a>
+  </div>
+  </div>
+</footer>
+</body>
+</html>
